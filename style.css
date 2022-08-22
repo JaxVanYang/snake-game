@@ -1,0 +1,62 @@
+/* || Default Style */
+html {
+  height: 100%;
+  font-size: 10px;
+}
+
+body {
+  margin: 2em auto;
+  max-width: 1000px;
+  background-color: grey;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, p, li {
+  line-height: 1.2em;
+  margin: 0.2em;
+  text-align: center;
+}
+
+/* || Main Layout */
+main {
+  height: fit-content;
+  margin: auto 0;
+  display: grid;
+  grid-template-columns: max-content max-content;
+  gap: 20px;
+}
+
+canvas {
+  width: 600px;
+  height: 600px;
+}
+
+/* || Scoreboard */
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+#panel {
+  width: 300px;
+}
+
+#panel ul {
+  margin-top: 50px;
+}
+
+#panel li {
+  margin: 4em 0;
+}
+
+button {
+  font-size: 2rem;
+}

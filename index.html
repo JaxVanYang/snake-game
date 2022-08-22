@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <title>贪吃蛇</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <!-- 游戏区域 -->
+    <canvas height="600px" width="600px"></canvas>
+
+    <!-- 游戏面板 -->
+    <section id="panel">
+      <h1>贪吃蛇</h1>
+      <p id="highest-score">历史记录：0</p>
+      <p id="score">当前分数：0</p>
+      <ul>
+        <li><button id="start">开始游戏</button></li>
+        <li><button id="pause">暂停游戏</button></li>
+        <li><button id="resume">继续游戏</button></li>
+        <li><button id="restart">重新开始</button></li>
+        <li><button id="end">结束游戏</button></li>
+        <li><button id="auto" disabled>自动模式</button></li>
+      </ul>
+    </section>
+  </main>
+</body>
+
+</html>
